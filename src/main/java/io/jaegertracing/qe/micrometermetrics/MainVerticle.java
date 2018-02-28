@@ -32,7 +32,6 @@ public class MainVerticle extends AbstractVerticle {
     public void start() {
         MicrometerMetricsFactory metricsReporter = new MicrometerMetricsFactory();
         Configuration configuration = Configuration.fromEnv();
-        //Metrics metrics = new
         Tracer tracer = configuration
                 .getTracerBuilder()
                 .withMetrics(new com.uber.jaeger.metrics.Metrics(metricsReporter))
