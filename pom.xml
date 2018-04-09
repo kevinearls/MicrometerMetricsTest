@@ -10,14 +10,14 @@
 
     <properties>
         <fabric8.vertx.maven.plugin>1.0.13</fabric8.vertx.maven.plugin>
-        <jaeger.core.version>0.25.0</jaeger.core.version>
+        <jaeger.core.version>0.26.0</jaeger.core.version>
         <junit.version>4.12</junit.version>
         <log4j.version>1.2.17</log4j.version>
         <maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.versions.plugin.version>2.5</maven.versions.plugin.version>
-        <micrometer.registry.prometheus.version>1.0.0</micrometer.registry.prometheus.version>
+        <micrometer.registry.prometheus.version>1.0.3</micrometer.registry.prometheus.version>
         <opentracing.version>0.31.0</opentracing.version>
         <slf4j.version>1.7.25</slf4j.version>
         <vertx.maven.plugin.version>1.0.13</vertx.maven.plugin.version>
