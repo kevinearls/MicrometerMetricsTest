@@ -4,10 +4,10 @@
 
 Start Jaeger
 
-export JAEGER_SERVICE_NAME="jaeger-client-java-tester"
-export JAEGER_REPORTER_LOG_SPANS="true"
-export JAEGER_SAMPLER_TYPE="const"
-export JAEGER_SAMPLER_PARAM="1"
++ export JAEGER_SERVICE_NAME="jaeger-client-java-tester"
++ export JAEGER_REPORTER_LOG_SPANS="true"
++ export JAEGER_SAMPLER_TYPE="const"
++ export JAEGER_SAMPLER_PARAM="1"
 
 `mvn clean install vertx:run`
 
